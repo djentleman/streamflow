@@ -77,7 +77,7 @@ restart() {
     start
 }
 
-status() {
+sf_status() {
     # run checks to determine if the service is running or use generic status
     status -p $PID_FILE $PROG
 }
@@ -94,7 +94,7 @@ case "$1" in
         $1
         ;;
     status)
-        $1
+        sf_status
         ;;
     *)
         echo $"Usage: $0 {start|stop|status|restart}"
