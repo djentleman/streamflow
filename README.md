@@ -1,5 +1,7 @@
 # StreamFlow&trade; 
 
+Note: this fork fixes several issues found when streamflow is interacted with via the linux 'service' command.
+
 [![Build Status](https://travis-ci.org/lmco/streamflow.svg?branch=develop)](https://travis-ci.org/lmco/streamflow)
 
 [![Join the chat at https://gitter.im/lmco/streamflow](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lmco/streamflow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
