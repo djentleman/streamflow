@@ -54,7 +54,7 @@ start() {
 
     [ -x $EXEC ] || exit 5
     echo -n $"Starting $PROG: "
-    daemon --user $STREAMFLOW_USER --pidfile $PID_FILE $EXEC -p $PID_FILE
+    daemon --user $STREAMFLOW_USER --pidfile $PID_FILE $EXEC -p $PID_FILE &
 
     retval=$?
     echo
